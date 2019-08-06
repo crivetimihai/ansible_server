@@ -1,0 +1,18 @@
+namespace: "crivetimihai"
+name: "server"
+version: "1.0.0"
+readme: "README.md"
+authors:
+  - "Mihai Criveti (https://twitter.com/crivetimihai)"
+description: "Collection of Server Roles"
+license:
+  - "MIT"
+tags:
+  - linux
+  - server
+  - xrdp
+  - collection
+repository: "https://www.github.com/crivetimihai/ansible_server"
+homepage: "https://www.github.com/crivetimihai/ansible_server"
+documentation: "https://www.github.com/crivetimihai/ansible_server"
+issues: "https://www.github.com/crivetimihai/ansible_server/issues"

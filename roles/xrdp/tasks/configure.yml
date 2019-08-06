@@ -1,0 +1,9 @@
+---
+# Configure xrdp
+
+- name: Enable service xrdp, and start if not started
+  service:
+    name: xrdp
+    enabled: yes
+    state: started
+  become: yes
