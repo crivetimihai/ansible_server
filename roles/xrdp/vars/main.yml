@@ -13,9 +13,9 @@ service_name: "{{ _service_name[ansible_distribution] | default(_service_name['d
 _packages:
   all:
     - xrdp
-    - tigervnc
+    - tigervnc-server
   CentOS:
     - xrdp
-    - tigervnc
+    - tigervnc-server
 
 packages: "{{ _packages['all'] + ( _packages[ansible_distribution] | default([]) ) }}"
