@@ -20,8 +20,7 @@ Example
 ### Install the role:
 
 ```bash
-pip install --upgrade mazer
-mazer install crivetimihai.server
+ansible-galaxy collection install crivetimihai.server
 ```
 
 
